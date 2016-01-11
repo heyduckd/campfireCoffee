@@ -17,11 +17,3 @@ var pikePlace = {
     return (this.cupsSold() + this.toGo());
   }
 }
-
-
-
-// function totalLbs() = {
-//   console.log(numCustomers, (cupsSold + toGo));
-// }
-//
-// totalLbs();
