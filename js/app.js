@@ -8,6 +8,9 @@ var pikePlace = {
     return Math.floor((Math.random() * (this.maxCustomers - this.minCustomers + 1)) + this.minCustomers);
   },
   cupsSold: function() {
+    return (this.numCustomers() * 1.2);
+  },
+  lbsCups: function() {
     return (this.numCustomers() * 1.2) / 20;
   },
   toGo: function() {
@@ -16,4 +19,8 @@ var pikePlace = {
   totalLbs: function() {
     return (this.cupsSold() + this.toGo());
   }
-}
+};
+
+var pikeCustomers = document.createElement('p');
+pikeCustomers.textContent = pikePlace.numCustomers() + " CUSTOMERS, " + pikePlace.totalLbs() + " TOTAL LBS. NEEDED, " + pikePlace.cupsSold() + " CUPS SOLD (" + pikePlace.lbsCups() + "lbs), " + pikePlace.toGo() + " LBS TO-GO.";
+document.body.appendChild(pikeCustomers);
