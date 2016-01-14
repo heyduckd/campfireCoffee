@@ -1,6 +1,6 @@
 
 #tablebg {
-  background: #333333;
+  background: black;
   width: 1150px;
   height: 380px;
   border-radius: 25px;
@@ -25,18 +25,11 @@
   border-color: white;
   border-radius: 25px;
   border-width: thick;
-  background: #333333;
 }
 
 #hours {
   text-align: center;
   padding: 5px 15px 5px 15px;
-}
-
-li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
 }
 
 #cornercell {
@@ -55,7 +48,6 @@ li a {
   border-color: white;
   border-radius: 25px;
   border-width: thick;
-  background: #333333;
 }
 
 td {
@@ -81,28 +73,40 @@ td {
 
 #header .main-nav .col {
   display: inline-block;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 50px;
   padding-bottom: 0px;
   padding-right: 50px;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 18px;
   letter-spacing: .5em;
   text-align: center;
+  text margin-top: center;
 }
 
-#headpic {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
 }
 
 #logo {
+  position: relative;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  z-index: 10;
+  margin-top: -13em;
+  margin-bottom: 6em;
+  z-index: 1;
+}
+
+#headpic {
+  display: block;
+  text-align: center;
+  margin: auto auto auto auto;
+  padding-top: 20px;
 }
 
 body {
@@ -117,4 +121,112 @@ div h4 {
   font-family: sans-serif;
   font-size: 30px;
   letter-spacing: .5em;
+  margin: auto;
 }
+
+#container {
+  padding: auto auto auto auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#piclabels {
+  color: white;
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#family {
+  position: relative;;
+  float: left;
+}
+
+#green {
+  position: relative;;
+  float: right;
+}
+
+#outside {
+  position: relative;;
+  float: left;
+}
+
+#story {
+  position: relative;;
+  float: right;
+}
+
+#paragraph {
+  color: grey;
+  padding: 10px 5px 10px 5px;
+  width: 265px;
+  height: 200px;
+  position: relative;
+}
+
+#youtube {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5em;
+  text-align: center;
+}
+
+a {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#adresses {
+  color: grey;
+}
+
+#info  {
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+h5 {
+  color: #FF4C18;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: .5em;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+h6 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: auto;
+}
+
+#contact {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 0px;
+}
+/*div {
+  width: 200px;
+  height: 150px;
+}*/
