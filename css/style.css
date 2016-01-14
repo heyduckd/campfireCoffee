@@ -1,94 +1,120 @@
+
+#tablebg {
+  background: #333333;
+  width: 1150px;
+  height: 380px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tablebody {
+  padding: 40px 10px 50px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tablehead {
+  color: white;
+  padding: 10px 5px 10px 5px;
+  font: helvetica;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: thick;
+  background: #333333;
+}
+
+#hours {
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#cornercell {
+  background: none;
+  border: none;
+}
+
+#location {
+  color: white;
+  padding: 5px 15px 5px 15px;
+  font: helvetica;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: thick;
+  background: #333333;
+}
+
+td {
+  color: white;
+  padding: 2px 2px 2px 2px;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+}
+
+#contents {
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  background: none;
+  color: white;
+}
+
+#header .main-nav {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#header .main-nav .col {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: .5em;
+  text-align: center;
+}
+
+#headpic {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #000;
 }
 
-#header > div {
-  width: 100%auto;
-  height: 180px;
-  margin: auto;
-  position: relative;
-  z-index: 100;
-}
-
-#header .main-nav {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  width: auto;
-  padding: 0 0 0 230px;
-  text-align: left;
-}
-
-#header .main-nav > li {
-  width: 110px;
-}
-
-#header .main-nav ul {
-  position: relative;
-  top: 0;
-  width: auto;
-  text-align: none;
-  margin: 0;
-  padding: 4px 0 10px 0;
-  list-style-type: none;
-  font-weight: normal;
-  background: none;
-}
-
-#header .main-nav .col {
-  display: inline-block;
-  padding: 0 5px;
-  vertical-align: top;
-}
-
-#header .main-nav > li > a {
+div h4 {
+  color: white;
+  text-align: center;
   font-family: sans-serif;
-  font-size: 17px;
-  line-height: normal;
-  letter-spacing: .1em
-  color: #e5e9e5
-  text-transform: uppercase;
-}
-
-#logo {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  margin: 0;
-  z-index: 100;
-  padding-top: 0;
-}
-
-#logo {
-  padding-top: 25px;
-  display: block;
-}
-
-h1 {
-  margin: 0 0 20px 0;
-  font-family: sans-serif;
-  font-size: 2.4em;
-  font-weight: normal;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-h1 {
-  display: block;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-#logo a {
-  display: block;
-  width: 121px;
-  height: 121px;
-  font-size: 1px;
-  line-height: 1px;
-  text-indent: -10000px;
-  background: url(img/campfire-logo.png) no-repeat;
-  float: inherit;
+  font-size: 30px;
+  letter-spacing: .5em;
 }
