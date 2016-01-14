@@ -20,11 +20,11 @@ function setting(place, minCust, maxCust, cupsCust, lbsCust) {
       var totalCupLbs = totalCups / 20;
       var totalToGoLbs = randCust * lbsCust;
       var overallLbs = totalCupLbs + totalToGoLbs;
-    this.randomCustomers[i] = randCust;
-    this.totalPounds[i] = overallLbs;
-    this.cups[i] = totalCups;
-    this.cupLbs[i] = totalCupLbs;
-    this.toGoLbs[i] = totalToGoLbs;
+    this.randomCustomers[i] = randCust.toFixed(1);
+    this.totalPounds[i] = overallLbs.toFixed(1);
+    this.cups[i] = totalCups.toFixed(1);
+    this.cupLbs[i] = totalCupLbs.toFixed(1);
+    this.toGoLbs[i] = totalToGoLbs.toFixed(1);
   }
 };
   this.calculations();
@@ -37,30 +37,44 @@ var sLake = new setting('South Lake Union', 35, 88, 1.3, 3.7);
 var seaTac = new setting('SeaTac', 68, 124, 1.1, 2.7);
 var web = new setting('Website', 3, 6, 0, 6.7);
 
+var tableBg = document.createElement('section');
+tableBg.id = "tablebg";
+document.body.appendChild(tableBg);
+
+var tableBody = document.createElement('section');
+tableBody.id = "tablebody";
+tableBg.appendChild(tableBody);
+
+
 var table = document.createElement('table');
-document.body.appendChild(table);
+tableBody.appendChild(table);
 
 var row1 = document.createElement('tr')
 table.appendChild(row1);
 
 var emptyCell = document.createElement('td')
+emptyCell.id = "cornercell"
 row1.appendChild(emptyCell);
 
 var tableTitle = document.createElement('td')
-tableTitle.textContent = 'Coffee Bean Consumption by Pound by Location'
-tableTitle.colSpan = 15
+tableTitle.id = "tablehead";
+tableTitle.textContent = 'COFFEE BEAN CONSUMPTION BY LOCATION BY HOUR';
+tableTitle.colSpan = 15;
 row1.appendChild(tableTitle);
 
-var row2 = document.createElement('tr')
+var row2 = document.createElement('tr');
+row2.id = "row2";
 table.appendChild(row2);
 
-var locationCell = document.createElement('td')
-locationCell.textContent = 'Location'
+var locationCell = document.createElement('td');
+locationCell.id = "location"
+locationCell.textContent = 'LOCATION';
 row2.appendChild(locationCell);
 
 function hourRow() {
   for (var j = 0; j < storeHours.length; j++) {
-    var hourCell = document.createElement('td')
+    var hourCell = document.createElement('td');
+    hourCell.id = "hours";
     hourCell.textContent = storeHours[j];
     row2.appendChild(hourCell);
   }
@@ -72,15 +86,16 @@ function tableData(location) {
   table.appendChild(row3);
 
   var locName = document.createElement('td');
-  locName.textContent = location.location;
+  locName.textContent = location.place;
   row3.appendChild(locName);
 
   for (var k = 0; k < storeHours.length; k++) {
       var tdEl = document.createElement('td');
+      tdEl.id = "contents";
       tdEl.textContent = location.totalPounds[k];
       row3.appendChild(tdEl);
     }
-};
+}
 
 tableData(pike);
 tableData(capHill);
