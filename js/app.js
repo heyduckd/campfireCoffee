@@ -26,8 +26,7 @@ function setting(place, minCust, maxCust, cupsCust, lbsCust) {
     this.cups[i] = totalCups.toFixed(1);
     this.cupLbs[i] = totalCupLbs.toFixed(1);
     this.toGoLbs[i] = totalToGoLbs.toFixed(1);
-  }
-};
+  };
   this.calculations();
 }
 
@@ -54,7 +53,7 @@ var row1 = document.createElement('tr')
 table.appendChild(row1);
 
 var emptyCell = document.createElement('td')
-emptyCell.id = "cornercell"
+emptyCell.id = "cornercell";
 row1.appendChild(emptyCell);
 
 var tableTitle = document.createElement('td')
@@ -68,7 +67,7 @@ row2.id = "row2";
 table.appendChild(row2);
 
 var locationCell = document.createElement('td');
-locationCell.id = "location"
+locationCell.id = "location";
 locationCell.textContent = 'LOCATION';
 row2.appendChild(locationCell);
 
