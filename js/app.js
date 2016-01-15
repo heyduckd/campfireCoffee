@@ -13,7 +13,7 @@ function setting(place, minCust, maxCust, cupsCust, lbsCust) {
   this.cups = [];
   this.cupLbs = [];
   this.toGoLbs = [];
-  
+
   this.calculations = function() {
     for (var i = 0; i < storeHours.length; i++) {
       var randCust = ((Math.random() * (maxCust - minCust + 1)) + minCust);
@@ -163,3 +163,6 @@ tableData(web);
 //   secEl.appendChild(tblEl);
 // }
 // renderMonths();
+
+
+DELETE THESE WORDS
