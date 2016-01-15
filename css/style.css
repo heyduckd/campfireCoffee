@@ -11,6 +11,7 @@ table {
   font-family: 'Oswald', sans-serif;
   font-weight: 200;
   text-align: center;
+  text-transform: uppercase;
 }
 
 #hours {
