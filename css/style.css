@@ -1,9 +1,15 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px white;
+  padding: 10px 10px 10px 10px;
+}
+
 #tableHead {
   color: white;
   padding: 2px 2px 2px 2px;
-  font: helvetica;
-  font-family: sans-serif;
-  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
   text-align: center;
 }
 
@@ -14,8 +20,8 @@
 
 #pl {
   color: white;
-  font: helvetica;
-  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
 }
 
 #row2 {
@@ -199,7 +205,58 @@ h6 {
   text-align: center;
   padding-top: 0px;
 }
-/*div {
+
+#dataForm {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 10px 20px 10px;
+  border: none;
+  height: auto;
+  width: 360px;
+}
+
+legend {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .5em;
+  text-align: center;
+}
+
+label {
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: .3em;
+}
+
+input {
+  border-radius: 10px;
+  display: block;
+  border: none;
+  height: 30px;
   width: 200px;
-  height: 150px;
-}*/
+  text-align: center;
+  font-size: 14px;
+  margin: 2px auto 10px auto;
+}
+
+button {
+  display: block;
+  width:200px;
+  height:30px;
+  right:20px;
+  bottom:20px;
+  margin: 25px auto 5px auto;
+  background: #FF4C18;
+  color:#fff;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
+  border: none;
+}
