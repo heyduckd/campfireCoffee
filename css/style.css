@@ -1,30 +1,10 @@
-
-#tablebg {
-  background: black;
-  width: 1150px;
-  height: 380px;
-  border-radius: 25px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#tablebody {
-  padding: 40px 10px 50px 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#tablehead {
+#tableHead {
   color: white;
-  padding: 10px 5px 10px 5px;
+  padding: 2px 2px 2px 2px;
   font: helvetica;
   font-family: sans-serif;
   font-weight: 600;
   text-align: center;
-  border-style: solid;
-  border-color: white;
-  border-radius: 25px;
-  border-width: thick;
 }
 
 #hours {
@@ -32,22 +12,15 @@
   padding: 5px 15px 5px 15px;
 }
 
-#cornercell {
-  background: none;
-  border: none;
+#pl {
+  color: white;
+  font: helvetica;
+  font-weight: 600;
 }
 
-#location {
+#row2 {
   color: white;
-  padding: 5px 15px 5px 15px;
   font: helvetica;
-  font-family: sans-serif;
-  font-weight: 600;
-  text-align: center;
-  border-style: solid;
-  border-color: white;
-  border-radius: 25px;
-  border-width: thick;
 }
 
 td {
