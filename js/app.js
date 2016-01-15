@@ -95,7 +95,6 @@ function tableData(location) {
       tdEl.textContent = location.totalPounds[k];
       row3.appendChild(tdEl);
     }
-}
 
 tableData(pike);
 tableData(capHill);
@@ -103,8 +102,9 @@ tableData(seaPub);
 tableData(sLake);
 tableData(seaTac);
 tableData(web);
+}
 
-
+};
 
 //THIS IS MY WORKING CODE FROM JAN11
 //
@@ -162,6 +162,3 @@ tableData(web);
 //   secEl.appendChild(tblEl);
 // }
 // renderMonths();
-
-
-DELETE THESE WORDS
