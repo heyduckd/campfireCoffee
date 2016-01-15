@@ -1,3 +1,257 @@
-#tHead {
-  border: 2px solid black;
+
+#tablebg {
+  background: black;
+  width: 1150px;
+  height: 380px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#tablebody {
+  padding: 40px 10px 50px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tablehead {
+  color: white;
+  padding: 10px 5px 10px 5px;
+  font: helvetica;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: thick;
+}
+
+#hours {
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+}
+
+#cornercell {
+  background: none;
+  border: none;
+}
+
+#location {
+  color: white;
+  padding: 5px 15px 5px 15px;
+  font: helvetica;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  border-width: thick;
+}
+
+td {
+  color: white;
+  padding: 2px 2px 2px 2px;
+  font-family: sans-serif;
+  border: none;
+  text-align: center;
+}
+
+#contents {
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  background: none;
+  color: white;
+}
+
+#header .main-nav {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#header .main-nav .col {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-bottom: 0px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  letter-spacing: .5em;
+  text-align: center;
+  text margin-top: center;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+#logo {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -18em;
+  margin-bottom: 3em;
+  z-index: 1;
+}
+
+#headpic {
+  display: block;
+  text-align: center;
+  margin: auto auto auto auto;
+  padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+div h4 {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: .5em;
+  margin: auto;
+}
+
+#container {
+  padding: auto auto auto auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#piclabels {
+  color: white;
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#family {
+  position: relative;;
+  float: left;
+}
+
+#green {
+  position: relative;;
+  float: right;
+}
+
+#outside {
+  position: relative;;
+  float: left;
+}
+
+#story {
+  position: relative;;
+  float: right;
+}
+
+#paragraph {
+  color: grey;
+  padding: 10px 5px 10px 5px;
+  width: 265px;
+  height: 200px;
+  position: relative;
+}
+
+#youtube {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5em;
+  text-align: center;
+}
+
+a {
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#adresses {
+  color: grey;
+}
+
+#info  {
+  color: white;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+h5 {
+  color: #FF4C18;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  letter-spacing: .5em;
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+h6 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: auto;
+}
+
+#contact {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 0px;
+}
+
+#form {
+  width: 435px;
+  height: auto;
+  text-align: right;
+  padding: auto auto auto auto;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+label {
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+legend {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*div {
+  width: 200px;
+  height: 150px;
+}*/

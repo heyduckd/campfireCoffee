@@ -1,5 +1,6 @@
 This is my README file.
 
-Wooooo!
+Hi mom!
 
-Quack Quack Quack Quack Quack Quack Quack Quack Quack Quack Quack Quack
+Modified by Iris Carrera under the guidance of David Heyduck on 1/14/2016
+Added a new html form to input new kiosk data in the data.html page
